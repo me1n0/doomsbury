@@ -26,16 +26,28 @@ body {
     align-items: center;
     flex-direction: column;
     height: 53vh;
-    padding-top: 10rem;
+    padding-top: 2rem;
     padding-bottom: 0;
     margin-bottom: 0;
     bottom: 0;
 }
-.content-div p {
+.welcome-p {
     text-align: center;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
     width: 20rem;
+}
+.select-h3 {
+    margin-bottom: 0.3rem;
+}
+.info-p {
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 0;
+    margin-bottom: 1rem;
+    width: 15rem;
+    font-size: 0.7rem;
+    color: #171d26d2;
 }
 .footer-div {
     border: 0px solid black;
@@ -85,13 +97,16 @@ span a {
     width: 5rem;
     height: 2rem;
     font-size: 1.2rem;
+    text-align: center;
 }
 .strt-btn {
     margin-top: 1rem;
+    text-align: center;
 }
 .slct-btn{
     margin-top: 0.5rem;
     font-size: 1rem;
+    text-align: center;
 }
 .button1:hover {
     background-color: #d6d6d658;
@@ -139,6 +154,8 @@ span a {
 .btn:disabled {
     background-color: #85858538;
     cursor: not-allowed;
+    color: #171d26b9;
+    border: 1px solid #ffffff3a;
 }
 
 @media only screen and (max-width: 440px) {
