@@ -94,13 +94,11 @@ span a {
     border: 1px solid #ffffff65;
     border-radius: 5px;
     font-family: 'Mate SC', serif;
-    width: 5rem;
-    height: 2rem;
+    padding: 0.3rem;
     font-size: 1.2rem;
     text-align: center;
 }
 .strt-btn {
-    margin-top: 1rem;
     text-align: center;
 }
 .slct-btn{
