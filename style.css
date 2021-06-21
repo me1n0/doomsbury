@@ -95,7 +95,8 @@ span a {
     border-radius: 5px;
     font-family: 'Mate SC', serif;
     padding: 0.3rem;
-    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
     text-align: center;
 }
 .strt-btn {
@@ -143,8 +144,7 @@ span a {
     border-radius: 5px;
     font-family: 'Mate SC', serif;
     width: 5rem;
-    height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .prev {
     margin-right: 15px;
