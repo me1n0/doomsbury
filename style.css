@@ -13,7 +13,7 @@ body {
     border-radius: 20px;
     background-color: #ffffff23;
     box-shadow: 0px 0px 30px 10px #00000011;
-    height: 93vh;
+    height: 90vh;
     min-width: 10%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -73,7 +73,18 @@ a {
     text-decoration: none;
     color: #171D26;
 }
-span {
+.settings {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position:absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.created {
     font-size: 0.7rem;
     padding-top: 1rem;
     padding-bottom: 0;
@@ -85,7 +96,7 @@ span {
     right: 0;
     text-align: center;
 }
-span a {
+.created a {
     cursor: pointer;
     text-decoration: underline #171d265e;
 }
@@ -155,7 +166,6 @@ span a {
     color: #171d26b9;
     border: 1px solid #ffffff3a;
 }
-
 @media only screen and (max-width: 440px) {
     body {
         padding-left: 17px;
@@ -171,5 +181,11 @@ span a {
     }
     .slct-btn{
         margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .welcome-p {
+        width: 15rem;
+        font-size: 0.9rem;
     }
 }
