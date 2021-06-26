@@ -50,6 +50,16 @@ body {
     font-size: 0.7rem;
     color: #171d26d2;
 }
+.button1 {
+    background-color: #c4c4c438;
+    border: 1px solid #ffffff65;
+    border-radius: 5px;
+    font-family: 'Mate SC', serif;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
 .footer-div {
     border: 0px solid black;
     bottom: 0;
