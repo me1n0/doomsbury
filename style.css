@@ -19,6 +19,7 @@ body {
     margin-bottom: 0;
     bottom: 0;
     position:relative;
+    overflow: auto; /* maybe should be removed */
 }
 .content-div {
     border: 0px solid purple;
@@ -56,6 +57,22 @@ body {
     align-items: center;
     flex-direction: column;  
 }
+.settings {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position:absolute;
+    bottom: 2rem;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    font-family: 'Mate SC', serif;
+    color: #171D26;
+}
+.settings:hover {
+    cursor: pointer;
+}
 ul {
     padding: 0;
     margin: 0;
@@ -73,17 +90,6 @@ a {
     text-decoration: none;
     color: #171D26;
 }
-.settings {
-    font-size: 0.8rem;
-    padding-top: 1rem;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    position:absolute;
-    bottom: 2rem;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
 .created {
     font-size: 0.7rem;
     padding-top: 1rem;
@@ -100,71 +106,36 @@ a {
     cursor: pointer;
     text-decoration: underline #171d265e;
 }
-.button1 {
-    background-color: #c4c4c438;
-    border: 1px solid #ffffff65;
-    border-radius: 5px;
-    font-family: 'Mate SC', serif;
-    padding: 0.3rem;
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    text-align: center;
-}
-.strt-btn {
-    text-align: center;
-}
-.slct-btn{
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    text-align: center;
-}
-.button1:hover {
-    background-color: #d6d6d658;
-    transition: background-color 0.3s linear;
-}
-.gallery-img {
+.modal {
     display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #555f51a9;
 }
-.active {
-    display: block;
-    border: 0px solid tomato;
+.modal-content {
+    background: linear-gradient(#C9C19C, #555F51) no-repeat center fixed;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ffffff65;
+    border-radius: 20px;
+    width: 80%;
     text-align: center;
 }
-.active img {
-    border: 2px solid #555F51;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: unset;
+.close {
+    color: #555F51;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
-.image-gallery {
-    border: 0px solid rebeccapurple;
-    height: 150px;
-}
-.image-gallery img {
-    width: 150px;
-}
-.btns {
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-}
-.btn {
-    background-color: #c4c4c438;
-    border: 1px solid #ffffff65;
-    border-radius: 5px;
-    font-family: 'Mate SC', serif;
-    width: 5rem;
-    font-size: 1rem;
-}
-.prev {
-    margin-right: 15px;
-}
-.btn:disabled {
-    background-color: #85858538;
-    cursor: not-allowed;
-    color: #171d26b9;
-    border: 1px solid #ffffff3a;
+.close:hover, .close:focus {
+    color: #ffffff65;
+    text-decoration: none;
+    cursor: pointer;
 }
 @media only screen and (max-width: 440px) {
     body {

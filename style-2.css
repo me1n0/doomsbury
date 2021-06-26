@@ -1,0 +1,83 @@
+/**
+css for character selecting
+**/
+
+.button1 {
+    background-color: #c4c4c438;
+    border: 1px solid #ffffff65;
+    border-radius: 5px;
+    font-family: 'Mate SC', serif;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.strt-btn {
+    text-align: center;
+}
+.slct-btn{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.button1:hover {
+    background-color: #d6d6d658;
+    transition: background-color 0.3s linear;
+}
+.gallery-img {
+    display: none;
+}
+.active {
+    display: block;
+    border: 0px solid tomato;
+    text-align: center;
+}
+.active img {
+    border: 2px solid #555F51;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: unset;
+}
+.image-gallery {
+    border: 0px solid rebeccapurple;
+    height: 150px;
+}
+.image-gallery img {
+    width: 150px;
+}
+.btns {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.btn {
+    background-color: #c4c4c438;
+    border: 1px solid #ffffff65;
+    border-radius: 5px;
+    font-family: 'Mate SC', serif;
+    width: 5rem;
+    font-size: 1rem;
+}
+.prev {
+    margin-right: 15px;
+}
+.btn:disabled {
+    background-color: #85858538;
+    cursor: not-allowed;
+    color: #171d26b9;
+    border: 1px solid #ffffff3a;
+}
+@media only screen and (max-width: 440px) {
+    .gallery-img {
+        max-height: 120px;
+    }
+    .btn {
+        width: 5rem;
+        height: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .slct-btn{
+        margin-top: 2rem;
+    }
+}
