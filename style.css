@@ -60,6 +60,10 @@ body {
     font-size: 1rem;
     text-align: center;
 }
+.button1:hover {
+    background-color: #d6d6d658;
+    transition: background-color 0.3s linear;
+}
 .footer-div {
     border: 0px solid black;
     bottom: 0;
@@ -116,6 +120,16 @@ a {
     cursor: pointer;
     text-decoration: underline #171d265e;
 }
+.created-2 {
+    font-size: 0.7rem;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 .modal {
     display: none;
     position: fixed;
@@ -147,6 +161,38 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+.modal-text {
+    text-align: center;
+    align-items: center;
+}
+
+/* hover text */
+.info-menu {
+  border-bottom: 1px dotted black;
+}
+.info-text {
+  visibility: hidden;
+  width: 120px;
+  background: linear-gradient(#C9C19C, #555F51) no-repeat center fixed;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border: 1px solid #ffffff65;
+  border-radius: 20px;
+  position: absolute; /* dont remove */
+  z-index: 1;
+  top: 40%;
+  bottom: 42.5%;
+  margin-left: -12rem;
+  margin-right: 15rem;
+  width: 10rem;
+  height: 10rem;
+}
+.info-menu:hover .info-text {
+  visibility: visible;
+}
+/* hover text */
+
 @media only screen and (max-width: 440px) {
     body {
         padding-left: 17px;
