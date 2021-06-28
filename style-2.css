@@ -16,13 +16,9 @@ css for character selecting
     text-align: center;
 }
 .slct-btn{
-    margin-top: 0.5rem;
+    margin-top: 0.1rem;
     font-size: 1rem;
     text-align: center;
-}
-.button1:hover {
-    background-color: #d6d6d658;
-    transition: background-color 0.3s linear;
 }
 .gallery-img {
     display: none;
