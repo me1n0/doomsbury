@@ -13,7 +13,7 @@ body {
     border-radius: 20px;
     background-color: #ffffff23;
     box-shadow: 0px 0px 30px 10px #00000011;
-    height: 97vh;
+    height: 90vh;
     min-width: 10%;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -206,6 +206,9 @@ a {
     }
     .character-info {
         padding-top: 1.7rem;
+    }
+    .main-div {
+        height: 97vh;
     }
 }
 @media only screen and (max-width: 600px) {
